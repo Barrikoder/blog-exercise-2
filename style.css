@@ -103,7 +103,7 @@ li a:hover{
 header {
     text-align: left;
     background: url(./Pictures/bg.png);
-    height: 660px;
+    height: 520px;
     background-size: cover;
     display: flex;
     flex-direction: column;
