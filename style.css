@@ -1,0 +1,479 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ol, ul, {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+___________________________________________________________________________
+
+main {
+  background-color: #FFECF5;
+}
+
+nav {
+background-color: white;
+}
+
+.logo {
+margin-left: 32px
+
+}
+
+.nav-right {
+
+}
+
+
+ul {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+
+li a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  list-style: none;
+  text-transform: capitalize;
+  color: #665C64;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li a:hover{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  list-style: none;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+header {
+
+    text-align: left;
+    background: url(./Pictures/bg.png);
+    height:660px;
+    width:100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
+
+}
+
+#duck {
+    background-color: #FFECF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+}
+
+#duck p {
+  font-style: normal;
+  
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+   }
+
+  #duck img {
+    margin-left: 56px;
+    }
+
+  #duck button {
+     margin-left: 0px;
+     }
+
+p {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+
+}
+
+.text {
+ text-align: left;
+}
+
+#emergency {
+  background-color: #FFFAEC;
+  text-align: center;
+  padding: 6%;
+}
+
+#emergency h2 {
+  background-color: #FFFAEC;
+  text-align: center;
+  width: 100%
+
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-content: start;    
+    grid-gap: 5%;
+    width: 80%;
+    margin: 56px auto;
+
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start
+    height: 600px;
+}
+
+.grid-item h3 {
+margin-top: 56px;
+}
+
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background: #F2F3EB;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+form {
+  padding: 16px;
+  margin: 64px 0;
+}
+
+h1 {
+  font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 120px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-align: left;
+}
+
+h2 {
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+text-transform: capitalize;
+color: #000000;
+text-align: left;
+width: 66%;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+  }
+
+  #contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 768px;
+    padding: 6%;
+  }
+
+  #container h2 {
+text-align: center;
+  }
+
+#contactform {
+  width: 768px;
+}
+
+.submit {
+  text-align: center;
+}
+
+.underline {
+  border-bottom: solid 8px #AE232A;
+  width: 254px;
+  margin: 56px 0;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+.button {
+  background: none;
+  border: solid 5px #AE232A;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 228px;
+  height: 48px;
+  background: #AE232A;
+  border-radius: 24px;
+  color: white;
+  margin: 56px;
+
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #AE232A;
+}
+
+.buttonBig {
+  background: none;
+  border: solid 5px #AE232A;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 420px;
+  height: 78px;
+  background: #000000;
+  border-radius: 60px;
+  color: white;
+  margin-top: 80px;
+
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.buttonBig:hover {
+  background: #ffffff;
+  color: #AE232A;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}

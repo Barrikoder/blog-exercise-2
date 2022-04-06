@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cookbook"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "blog-exercise-2"
+	}
+}
